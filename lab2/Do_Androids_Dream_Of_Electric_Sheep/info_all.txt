@@ -1,0 +1,30 @@
+Rick_Deckard
+Iran_Deckard
+John_Isidore
+Rachael_Rosen
+Wilbur_Mercer
+//----------------------------------------------------------------------------
+About Rick Deckard.
+A android hunter for the San Francisco Police Department and protagonist of the novel. His job is to hunt down and “retire” rogue androids by killing them, 
+in the hopes of using the bounty money to replace his electric sheep with a live animal.
+Throughout the story, Deckard struggles more and more with his job, questioning whether or not the androids he kills are actually living beings.
+His character is stubborn, persistent, but at the same time vulnerable and prone to self-destruction. Shows empathy towards androids.
+//----------------------------------------------------------------------------
+About Iran_Deckard.
+Deckard’s wife. Iran and Deckard’s marriage is strained by circumstance and personality differences. Deckard tries to maintain a positive outlook, but Iran is usually morose and depressed. She, like J.R. Isidore, relies on her empathy box to connect to others.
+//----------------------------------------------------------------------------
+About Wilbur_Mercer.
+A mythical figure through which humans gain empathic connection to one another.Mercer is the supposed founder of “Mercerism,” the prevailing socio-religious belief system of what remains of humanity. Humans use an “empathy box” to become the martyr-like figure of Mercer, endlessly climbing a mountain.
+His character is wise and spiritual.
+//----------------------------------------------------------------------------
+About Rachael_Rosen.
+An android posing as the daughter of Eldon Rosen, the innovator behind human-like androids. Rachael is the antagonist of the novel.
+Throughout the story she manipulates Deckard into feeling empathy for androids.
+Her character is cold and pragmatic. As an android, she has no sense of empathy towards living beings.
+//-----------------------------------------------------------------------------
+About John Isidore.
+A lonely “special,” a human whose mental faculties have diminished due to radiation poisoning. Isidore works for Van Ness Pet Hospital, a business that discreetly repairs electric animals for those who cannot afford living animals.
+Through Mercerism, J.R. feels empathy for his fellow humans, but is at the same time excluded by his classification as a “special.”
+His character is kind and sympathetic, but naive.
+
+//-----------------------------------------------------------------------------

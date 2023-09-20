@@ -1,0 +1,207 @@
+    1  sudo apt update
+    2  su
+    3  clear
+    4  sudo apt update
+    5  su
+    6  sudo apt update
+    7  sudo apt full-upgrade
+    8  sudo apt update
+    9  sudo apt full-upgrade
+   10  sudo apt install git 
+   11  sudo apt install vim
+   12  clear
+   13  git config -- global user.name "vsmpei"
+   14  git init
+   15  git config -- global user.name "vsmpei"
+   16  git config --list
+   17  git config --global user.name "vsmpei"
+   18  git config --global user.email "fdts1432@mail.ru"
+   19  git config --list
+   20  clear
+   21  ls -la 
+   22  ls /mnt
+   23  ls /
+   24  ls /media
+   25  sudo reboot
+   26  ls /media
+   27  ls -la /media
+   28  su
+   29  ls -la \
+   30  ls -la
+   31  vim .bashrc
+   32  bash reload
+   33  mkdir git
+   34  ls 
+   35  cd git 
+   36  clear
+   37  git clone https://github.com/dmieter/os-labs.git
+   38  ls 
+   39  cd ..
+   40  mkdir git_vs
+   41  cd git_vs
+   42  git clone https://github.com/vsmpei/mpei-os-labs.git
+   43  git clone https://github.com/vsmpei/mpei-os-labs
+   44  ls 
+   45  clear
+   46  cd mpei-os-labs/
+   47  mkdir lab2
+   48  git add lab2
+   49  git status 
+   50  cd lab2
+   51  touch test.txt
+   52  cd ..
+   53  ls 
+   54  git status
+   55  git add lab2/test.txt 
+   56  git status
+   57  git commit -m "add test file"
+   58  git push
+   59  git config -l
+   60  git push
+   61  git config --global credential.helper cache
+   62  git push
+   63  git pull
+   64  cd .. 
+   65  cd git
+   66  cd ..
+   67  cd git
+   68  ls 
+   69  cd os-labs/
+   70  cd labs-2023
+   71  cd lab2
+   72  ls 
+   73  less labdata2.log 
+   74  less -N labdata2.log 
+   75  less -1763 +1769 labdata2.log 
+   76  less +1763 -1769 labdata2.log 
+   77  less +1763 -1769 labdata2.log >> /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   78  cat /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   79  rm -f /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   80  cd /home/usrmpei/git
+   81  cd os-labs/
+   82  cd labs-2023
+   83  cd lab2
+   84  less +1763 -1769 labdata2.log 
+   85  less +1763,-1769 labdata2.log >> /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   86  cat /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   87  rm -f /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   88  less +1763,-1769 labdata2.log 
+   89  less +1763 -1769 labdata2.log 
+   90  cat labdata2.log | head -n 1769 | tail -n 7
+   91  cat labdata2.log | head -n 1769 | tail -n 6
+   92  cat labdata2.log | head -n 1769 | tail -n 6 > /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   93  less -N labdata2.log 
+   94  echo 'Диапазон строк: с 1764 по 1769' >> /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   95  cat /home/usrmpei/git_vs/mpei-os-labs/lab2/MYTASK.txt
+   96  cd ..
+   97  cd 
+   98  cd /home/usrmpei/git_vs/
+   99  cd mpei-os-labs/lab2/
+  100  ls
+  101  git add MYTASK.txt 
+  102  git commit -m 'Добавил файл с заданием'
+  103  git push
+  104  ls 
+  105  mkdir Do_Androids_Dream_Of_Electric_Sheep
+  106  cd Do_Androids_Dream_Of_Electric_Sheep/
+  107  mkdir Rick_Deckard
+  108  mkdir Rachael_Rosen
+  109  ls 
+  110  mkdir John_Isidore
+  111  mkdir Wilbur_Mercer
+  112  mkdir Iran_Deckard
+  113  ls 
+  114  cd Rick_Deckard/
+  115  vim info.txt
+  116  ls 
+  117  cat info.txt 
+  118  cd .. 
+  119  cd Iran_Deckard/
+  120  vim info.txt
+  121  cat info.txt
+  122  vim info.txt
+  123  cat info.txt
+  124  cd ..
+  125  cd Rick_Deckard/
+  126  vim info.txt
+  127  cd ..
+  128  ls 
+  129  cd John_Isidore/
+  130  vim info.txt
+  131  cd ..
+  132  ls 
+  133  ls John_Isidore/
+  134  cd Wilbur_Mercer/
+  135  vim info.txt
+  136  cat info.txt 
+  137  cd ..
+  138  cd Rachael_Rosen/
+  139  vim info.txt
+  140  cd ..
+  141  ls 
+  142  ls -R
+  143  clear
+  144  cat > info_all.txt
+  145  rm -f info_all.txt
+  146  cat > info_all.txt
+  147  cat info_all.txt 
+  148  cp info_all.txt info_all_copy.txt
+  149  ls
+  150  cat info_all.txt Rick_Deckard/info.txt > info_all.txt
+  151  cat info_all.txt 
+  152  rm -f info_all.txt
+  153  cp info_all_copy.txt info_all.txt 
+  154  ls 
+  155  cat info_all.txt 
+  156  cat info_all.txt Rick_Deckard/info.txt > what.txt
+  157  cat what.txt 
+  158  rm -f what.txt 
+  159  cat info_all.txt Rick_Deckard/info.txt > all_info.txt
+  160  cat all_info.txt 
+  161  cat >> all_info.txt 
+  162  cat all_info.txt 
+  163  cat all_info.txt Iran_Deckard/info.txt > info_all.txt
+  164  cat info_all.txt
+  165  vim info_all.txt
+  166  cat info_all.txt
+  167  cat >> info_all.txt
+  168  cat info_all.txt
+  169  cat info_all.txt Rick_Deckard/info.txt >> info_all.txt
+  170  cat info_all.txt
+  171  cat >> info_all.txt
+  172  cat info_all.txt Iran_Deckard/info.txt >> info_all.txt
+  173  cat info_all.txt
+  174  cat >> info_all.txt
+  175  cat info_all.txt Wilbur_Mercer/info.txt >> info_all.txt
+  176  cat info_all.txt
+  177  cat >> info_all.txt
+  178  cat info_all.txt Rachael_Rosen/info.txt >> info_all.txt
+  179  cat info_all.txt
+  180  cat >> info_all.txt
+  181  cat info_all.txt
+  182  cat info_all.txt John_Isidore/info.txt >> info_all.txt
+  183  cat info_all.txt
+  184  cat >> info_all.txt
+  185  cat info_all.txt
+  186  ls
+  187  rm -f all_info.txt 
+  188  ls
+  189  rm -f info_all_copy.txt 
+  190  ls
+  191  cat info_all.txt
+  192  clear
+  193  cd ..
+  194  ls
+  195  clear
+  196  less /home/usrmpei/git/os-labs/labs-2023/lab2/labdata2.log
+  197  clear
+  198  less -N /home/usrmpei/git/os-labs/labs-2023/lab2/labdata2.log
+  199  clear
+  200  ls 
+  201  cat test.txt 
+  202  cat >> test.txt
+  203  ls
+  204  cat MYTASK.txt 
+  205  cp /home/usrmpei/Pictures/Screenshots/* /home/usrmpei/git_vs/mpei-os-labs/lab2/
+  206  ls
+  207  history > my_bash_history.txt

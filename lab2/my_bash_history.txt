@@ -205,3 +205,127 @@
   205  cp /home/usrmpei/Pictures/Screenshots/* /home/usrmpei/git_vs/mpei-os-labs/lab2/
   206  ls
   207  history > my_bash_history.txt
+//-----------------------------------------------------------------------------
+    1  sudo apt update
+    2  su
+    3  clear
+    4  sudo apt update
+    5  su
+    6  sudo apt update
+    7  sudo apt full-upgrade
+    8  sudo apt update
+    9  sudo apt full-upgrade
+   10  sudo apt install git 
+   11  sudo apt install vim
+   12  clear
+   13  git config -- global user.name "vsmpei"
+   14  git init
+   15  git config -- global user.name "vsmpei"
+   16  git config --list
+   17  git config --global user.name "vsmpei"
+   18  git config --global user.email "fdts1432@mail.ru"
+   19  git config --list
+   20  clear
+   21  ls -la 
+   22  ls /mnt
+   23  ls /
+   24  ls /media
+   25  sudo reboot
+   26  ls /media
+   27  ls -la /media
+   28  su
+   29  ls -la \
+   30  ls -la
+   31  vim .bashrc
+   32  bash reload
+   33  cd git_vs
+   34  ls 
+   35  git pull
+   36  git status 
+   37  ls
+   38  cd mpei-os-labs/
+   39  clear
+   40  git status 
+   41  git pull
+   42  clear
+   43  cd lab2/
+   44  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R*
+   45  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R* | ls
+   46  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R* 
+   47  ls Do_Androids_Dream_Of_Electric_Sheep/  
+   48  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R* | cat
+   49  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep -h R* 
+   50  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep -c R* 
+   51  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep "^R" 
+   52* ls -R Do_Androids_Dream_Of_Electric_Sheep/^R'/*
+   53  ls Do_Androids_Dream_Of_Electric_Sheep/R*
+   54  ls -R Do_Androids_Dream_Of_Electric_Sheep/R*
+   55  ls Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt 
+   56  ls -R Do_Androids_Dream_Of_Electric_Sheep/
+   57  ls Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt 
+   58  ls Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt
+   59  cat Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt > OK.txt
+   60  ls
+   61  cat OK.txt 
+   62  rm -f OK.txt
+   63  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   64  ls
+   65  cat ADDTASK.txt 
+   66  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt > ADDTASK.txt
+   67  cat ADDTASK.txt 
+   68  clear
+   69  cat > ADDTASK.txt; cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   70  cat ADDTASK.txt 
+   71  ls 
+   72  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   73  cat ADDTASK.txt 
+   74  clear
+   75  cat > ADDTASK.txt & cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   76  fg %1
+   77  cat ADDTASK.txt 
+   78  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   79  cat ADDTASK.txt 
+   80  cat > ADDTASK.txt ; cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   81  cat ADDTASK.txt 
+   82  cat 'OK' > ADDTASK.txt ; cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   83  clear
+   84  cat > ADDTASK.txt
+   85  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt\
+   86  clear
+   87  cat > ADDTASK.txt
+   88  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   89  cat ADDTASK.txt
+   90  history > my_bash_history.txt
+   91  cat my_bash_history.txt | tail -n 10
+   92  history
+   93  rm -f my_bash_history.txt
+   94  rm -f ADDTASK.txt 
+   95  git pull
+   96  ls
+   97  git chekout my_bash_history.txt
+   98  git log
+   99  git reset --hard 2795d9a53c9bf1e11e20e9379b8d101bf1bcc6f7
+  100  ls
+  101  cat my_bash_history.txt 
+  102  clear
+  103  cat > ADDTASK.txt
+  104  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+  105  cat ADDTASK.txt
+  106  clear
+  107  rm -f ADDTASK.txt 
+  108  cat > ADDTASK.txt
+  109  CLEAR
+  110  clear
+  111  cat > ADDTASK.txt
+  112  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+  113  cat ADDTASK.txt
+  114  cp /home/usrmpei/Pictures/ADDTASK_OK.png /home/usrmpei/git_vs/mpei-os-labs/lab2/
+  115  ls
+  116  git status
+  117  git add ADDTASK.txt ADDTASK_OK.png
+  118  git status
+  119  git commit -m 'Выполнил доп задание'
+  120  git push
+  121  history
+  122  cat >> my_bash_history.txt 
+  123  history >> my_bash_history.txt 

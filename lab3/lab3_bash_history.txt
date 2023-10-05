@@ -1,0 +1,391 @@
+    1  sudo apt update
+    2  su
+    3  clear
+    4  sudo apt update
+    5  su
+    6  sudo apt update
+    7  sudo apt full-upgrade
+    8  sudo apt update
+    9  sudo apt full-upgrade
+   10  sudo apt install git 
+   11  sudo apt install vim
+   12  clear
+   13  git config -- global user.name "vsmpei"
+   14  git init
+   15  git config -- global user.name "vsmpei"
+   16  git config --list
+   17  git config --global user.name "vsmpei"
+   18  git config --global user.email "fdts1432@mail.ru"
+   19  git config --list
+   20  clear
+   21  ls -la 
+   22  ls /mnt
+   23  ls /
+   24  ls /media
+   25  sudo reboot
+   26  ls /media
+   27  ls -la /media
+   28  su
+   29  ls -la \
+   30  ls -la
+   31  vim .bashrc
+   32  bash reload
+   33  cd git_vs
+   34  ls 
+   35  git pull
+   36  git status 
+   37  ls
+   38  cd mpei-os-labs/
+   39  clear
+   40  git status 
+   41  git pull
+   42  clear
+   43  cd lab2/
+   44  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R*
+   45  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R* | ls
+   46  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R* 
+   47  ls Do_Androids_Dream_Of_Electric_Sheep/  
+   48  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep R* | cat
+   49  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep -h R* 
+   50  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep -c R* 
+   51  ls Do_Androids_Dream_Of_Electric_Sheep/ | grep "^R" 
+   52  ls -R Do_Androids_Dream_Of_Electric_Sheep/^R'/*
+   53  ls Do_Androids_Dream_Of_Electric_Sheep/R*
+   54  ls -R Do_Androids_Dream_Of_Electric_Sheep/R*
+   55  ls Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt 
+   56  ls -R Do_Androids_Dream_Of_Electric_Sheep/
+   57  ls Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt 
+   58  ls Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt
+   59  cat Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt > OK.txt
+   60  ls
+   61  cat OK.txt 
+   62  rm -f OK.txt
+   63  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   64  ls
+   65  cat ADDTASK.txt 
+   66  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt > ADDTASK.txt
+   67  cat ADDTASK.txt 
+   68  clear
+   69  cat > ADDTASK.txt; cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   70  cat ADDTASK.txt 
+   71  ls 
+   72  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   73  cat ADDTASK.txt 
+   74  clear
+   75  cat > ADDTASK.txt & cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   76  fg %1
+   77  cat ADDTASK.txt 
+   78  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   79  cat ADDTASK.txt 
+   80  cat > ADDTASK.txt ; cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   81  cat ADDTASK.txt 
+   82  cat 'OK' > ADDTASK.txt ; cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   83  clear
+   84  cat > ADDTASK.txt
+   85  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt\
+   86  clear
+   87  cat > ADDTASK.txt
+   88  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+   89  cat ADDTASK.txt
+   90  history > my_bash_history.txt
+   91  cat my_bash_history.txt | tail -n 10
+   92  history
+   93  rm -f my_bash_history.txt
+   94  rm -f ADDTASK.txt 
+   95  git pull
+   96  ls
+   97  git chekout my_bash_history.txt
+   98  git log
+   99  git reset --hard 2795d9a53c9bf1e11e20e9379b8d101bf1bcc6f7
+  100  ls
+  101  cat my_bash_history.txt 
+  102  clear
+  103  cat > ADDTASK.txt
+  104  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+  105  cat ADDTASK.txt
+  106  clear
+  107  rm -f ADDTASK.txt 
+  108  cat > ADDTASK.txt
+  109  CLEAR
+  110  clear
+  111  cat > ADDTASK.txt
+  112  cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+  113  cat ADDTASK.txt
+  114  cp /home/usrmpei/Pictures/ADDTASK_OK.png /home/usrmpei/git_vs/mpei-os-labs/lab2/
+  115  ls
+  116  git status
+  117  git add ADDTASK.txt ADDTASK_OK.png
+  118  git status
+  119  git commit -m 'Выполнил доп задание'
+  120  git push
+  121  history
+  122  cat >> my_bash_history.txt 
+  123  history >> my_bash_history.txt 
+  124  cat my_bash_history.txt | tail -n 200
+  125  git add my_bash_history.txt 
+  126  git commit -m 'Обновил после доп задания'
+  127  git push 
+  128  cat 'Entered something from the terminal' Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> OK.txt
+  129  cat 'Entered something from the terminal Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt > OK.txt
+  130  cat > OK.txt && cat OK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> OK.txt
+  131  cat OK.txt 
+  132  clear
+  133  rm -f OK.txt
+  134  git status 
+  135  git log
+  136  git reset --hard 2795d9a53c9bf1e11e20e9379b8d101bf1bcc6f7
+  137  clear
+  138  git push
+  139  git status
+  140  git config 
+  141  git log
+  142  git pull
+  143  git log
+  144  clear
+  145  ls
+  146  git rm ADDTASK_OK.txt
+  147  git rm ADDTASK_OK.png 
+  148  commit -m 'Можно сделать лучше'
+  149  git commit -m 'Можно сделать лучше'
+  150  git push
+  151  clear
+  152  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+  153  cat ADDTASK.txt 
+  154  clear
+  155  cat > ADDTASK.txt && cat ADDTASK.txt Do_Androids_Dream_Of_Electric_Sheep/R*/info.txt >> ADDTASK.txt
+  156  cat ADDTASK.txt 
+  157  cp /home/usrmpei/Pictures/ADDTASK_OK.png /home/usrmpei/git_vs/mpei-os-labs/lab2/
+  158  LS
+  159  ls -la
+  160  git status
+  161  git add ADDTASK.txt ADDTASK_OK.png 
+  162  git commit -m 'Доп задание'
+  163  git push
+  164  vim my_bash_history.txt 
+  165  cat >> my_bash_history.txt 
+  166  history
+  167  cat my_bash_history.txt 
+  168  history
+  169  echo "Хотел как то облагородить файл с историей, но получилось как всегда..."
+  170  history
+  171  hisory >> my_bash_history.txt 
+  172  cat my_bash_history.txt 
+  173  history >> my_bash_history.txt 
+  174  git add my_bash_history.txt 
+  175  git commit -m 'Обновил файл истории команд после доп задания'
+  176  git push
+  177  clear
+  178  cowsay
+  179  sudo apt install cowsay
+  180  clear
+  181  sudo apt update
+  182  sudo reboot
+  183  sudo apt update
+  184  sudo apt full-upgrade
+  185  ls 
+  186  cd git
+  187  ls
+  188  cd os-labs/
+  189  git fetch
+  190  ls
+  191  cd labs-202
+  192  cd labs-2023
+  193  cd ..
+  194  cd git_vs/
+  195  l
+  196  ls
+  197  cd mpei-os-labs/
+  198  ls
+  199  git pull
+  200  mkdir lab3
+  201  git add lab3
+  202  git commit -m "Создал папку для третьей лабы"
+  203  git push
+  204  cd /media/
+  205  ls
+  206  cd VirtualBox_VMs_Folder/
+  207  ls
+  208  sudo cd VirtualBox_VMs_Folder/
+  209  ls 
+  210  cd VirtualBox_VMs_Folder/
+  211  su
+  212  cd /home/usrmpei/git_vs/
+  213  cd mpei-os-labs/
+  214  git push
+  215  ls 
+  216  cd ..
+  217  cd git
+  218  cd os-labs/
+  219  git pull
+  220  cd labs-2023/lab3
+  221  ls
+  222  cp labfiles-3.zip /home/usrmpei/git_vs/mpei-os-labs/lab3/
+  223  cd /home/usrmpei/git_vs/
+  224  cd mpei-os-labs/lab3
+  225  ls
+  226  unzip labfiles-3.zip 
+  227  ls
+  228  cd labfiles/
+  229  ls 
+  230  clear
+  231  ls -lr
+  232  ls -lR
+  233  clear
+  234  grep -hEr '2023.*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-\(17\|18\|19\|20\);/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/' > ../EX2.txt
+  235  cat ../EX2.txt 
+  236  cat >> ../EX2.txt 
+  237  grep -hErc '(2021|2022|2023).*([3]$)' >> ../EX2.txt
+  238  cat ../EX2.txt 
+  239  clear
+  240  grep -rhi 'sukhanovvs' | sed -si 's/;[43];[43]/;5;5/g' * 
+  241  grep -rhi 'sukhanovvs'
+  242  sed -i '/^Su/s/0/1/g' */A-09-20-attendance
+  243  ls 
+  244  cd Пивоварение/
+  245  cat A-09-20-attendance 
+  246  cd ..
+  247  grep -rhi 'sukhanovvs' | sed -si 's/;[43];[43]/;5;5/g' *
+  248  cd Пивоварение/
+  249  grep -rhi 'sukhanovvs' | sed -si 's/;[43];[43]/;5;5/g' *
+  250  cd tests/
+  251  grep -rhi 'sukhanovvs' | sed -si 's/;[43];[43]/;5;5/g' *
+  252  cat *
+  253  grep -rhi 'sukhanovvs' | sed -si 's/;[432];[432]/;5;5/g' *
+  254  cat *
+  255  grep -rhi 'sukhanovvs' | sed -si 's/;[0-9];[432]/;5;5/g' *
+  256  cat *
+  257  cd ..
+  258  cd Криптозоология/
+  259  cd tests/
+  260  grep -rhi 'sukhanovvs' | sed -si 's/;[0-9];[432]/;5;5/g' *
+  261  cat *
+  262  cat * | grep sukhanov
+  263  cat * | grep 'sukhanov'
+  264  cd ..
+  265  sed -i '/^Su/s/0/1/g' */A-09-20-attendance
+  266  cat */A-09-20-attendance
+  267  cd ..
+  268  ls 
+  269  cat EX2.txt 
+  270  rm -f EX2.txt 
+  271  cd labfiles/
+  272  grep -hEr '2023.*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-\(17\|18\|19\|20\);/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/'
+  273  grep -hEr '2023.*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-\(17\|18\|19\|20\);/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/' >> ../EX2.txt
+  274  grep -hErc '(2021|2022|2023).*([3]$)' >> EX2.txt
+  275  cat ../EX2.txt 
+  276  cat >> ../EX2.txt 
+  277  cd ..
+  278  rm -f EX2.txt 
+  279  cd labfiles/
+  280  grep -hEr '2023.*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-\(17\|18\|19\|20\);/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/' >> ../EX2.txt
+  281  cat >> ../EX2.txt 
+  282  grep -hErc '(2021|2022|2023).*([3]$)' >> ../EX2.txt
+  283  cat ../EX2.txt 
+  284  clear
+  285  cd .. 
+  286  cd labfiles/
+  287  cd Пивоварение/
+  288  cd tests/
+  289  CLEAR
+  290  clear
+  291  cd..
+  292  cd ..
+  293  clear
+  294  vim ./students/general/notes/SNames.log
+  295  cat ./students/general/notes/SNames.log | tail -n 10
+  296  clear
+  297  cd ..
+  298  cd .. 
+  299  clear
+  300  cd lab3
+  301  git add *
+  302  git commit -m "Первый блин..."
+  303  git push 
+  304  vim ./students/general/notes/SNames.log
+  305  cd labfiles/
+  306  vim ./students/general/notes/SNames.log
+  307  cd ..
+  308  git add EX_3_3.png 
+  309  git commit -m "Добавил скриншот работы в VIM"
+  310  git push
+  311  clear
+  312  cd labfiles/
+  313  grep -hEr '2023.*([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-\(17\|18\|19\|20\);/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/' 
+  314  grep -hEr '(2021|2022|2023).*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/\-(0|9)-20;/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/'
+  315  grep -hEr '(2021|2022|2023).*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-(0|9)-20;/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/'
+  316  grep -hEr '(2021|2022|2023).*.([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-20;/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/'
+  317  grep -hEr '2023).*([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-20;/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/'
+  318  grep -hEr '2023.*([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-20;/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/'
+  319  grep -hEr '2023.*([3-5]$)' | sort -t ";" -k1,2 | sed -e 's/-20;/;/' -e 's/;[0-3]\{4\};.;/;/' -e 's/;[0-3]\{4\};[0-9]\{2\};/;/' > ../EX2_IMPROVED.txt
+  320  grep -hErc '(2021|2022|2023).*([3]$)'
+  321  cat >> ../EX2_IMPROVED.txt
+  322  grep -hErc '(2021|2022|2023).*([3]$)' >> ../EX2_IMPROVED.txt 
+  323  cat ../EX2_IMPROVED.txt 
+  324  clear
+  325  cd
+  326  cd git_vs/
+  327  cd mpei-os-labs/
+  328  cd lab3
+  329  clear
+  330  git add EX2_IMPROVED.txt 
+  331  git commit -m "Исправленное задание 2"
+  332  git push
+  333  clear
+  334  grep -rhi 'sukhanovvs' | sed 's/;[43];[43]/;5;5/g' * 
+  335  cd git_vs/mpei-os-labs/lab3/labfiles/
+  336  cd students/groups/
+  337  grep -ril 'sukhanovvs'
+  338  grep -ril 'sukhanovvs' | cat
+  339  grep -ril 'sukhanovvs' | xargs -0 cat
+  340  grep -ril 'sukhanovvs' | xargs cat
+  341  man xargs
+  342  grep -ril 'sukhanovvs' | xargs cat | sed '/^[A-Z].*[^A-Z]\{,2\}/d'
+  343  grep -ril 'sukhanovvs' | xargs cat | grep -E '^[A-Z].*[^A-Z]\{,2\}'
+  344  grep -ril 'sukhanovvs' | xargs cat | grep -E '^[A-Z].*[A-Z]\{,2\}'
+  345  grep -ril 'sukhanovvs' | xargs cat | grep -E '^[A-Z].*'
+  346  grep -ril 'sukhanovvs' | xargs cat | grep -E '^[A-Z].*[A-Z]{2}'
+  347  grep -ril 'sukhanovvs' | xargs cat | grep -E '^[A-Z].*[^A-Z]{2}'
+  348  grep -ril 'sukhanovvs' | xargs cat | grep -E '^[A-Z].*[A-Z]{2}'
+  349  grep -ril 'sukhanovvs' | xargs cat | grep -E '[A-Z]{2}'
+  350  grep -ril 'sukhanovvs' | xargs cat | grep -E '[^A-Z]{2}'
+  351  man grep
+  352  grep -ril 'sukhanovvs' | xargs cat | grep -v '[A-Z]{2}'
+  353  grep -ril 'sukhanovvs' | xargs cat | grep -vE '[A-Z]{2}'
+  354  clear
+  355  grep -ril 'sukhanovvs' | xargs cat | grep -vE '[A-Z]{2}'
+  356  grep -ril 'sukhanovvs' | xargs cat | 
+  357  grep -ril 'sukhanovvs' | xargs cat 
+  358  grep -ril 'sukhanovvs' | xargs cat | sed '/[A-Z]?[a-z]/d'
+  359  grep -ril 'sukhanovvs' | xargs cat | sed 's/[A-Z]?[a-z]/d'
+  360  clear
+  361  grep -ril 'sukhanovvs' | xargs cat | sed '/[A-Z]?[a-z]/p'
+  362  grep -ril 'sukhanovvs' | xargs cat | sed '/[A-Z]/p'
+  363  grep -ril 'sukhanovvs' | xargs cat | sed '/[T]/p'
+  364  grep -ril 'sukhanovvs' | xargs cat | sed '[T]/p'
+  365  grep -ril 'sukhanovvs' | xargs cat | sed '/[T]/p'
+  366  grep -ril 'sukhanovvs' | xargs cat | sed '/^[T]/p'
+  367  grep -ril 'sukhanovvs' | xargs cat | sed '/^[T].*/p'
+  368  grep -ril 'sukhanovvs' | xargs cat | sed 's/^[T].*/ /g'
+  369  grep -ril 'sukhanovvs' | xargs cat | sed 's/^[A-Z].*/ /g'
+  370  grep -ril 'sukhanovvs' | xargs cat | sed 's/^[A-Z].*[a-z]/ /g'
+  371  cat A-09-20
+  372  grep -ril 'sukhanovvs' | xargs cat | sed 's/^[A-Z][a-z]*/ /g'
+  373  cd ../../..
+  374  ls
+  375  history >> lab3_bash_history.txt
+  376  cp /home/usrmpei/Desktop/lab3_true.txt .
+  377  ls
+  378  rm -f lab3_true.txt 
+  379  cp /home/usrmpei/Desktop/lab3_true.txt .
+  380  ls
+  381  cat lab3_true.txt 
+  382  mv lab3_true.txt lab3_commands.txt
+  383  ls
+  384  cat lab3_commands.txt > lab3_command_list.txt
+  385  rm -f lab3_commands.txt
+  386  ls
+  387  cat lab3_command_list.txt 
+  388  nano lab3_command_list.txt 
+  389  vim lab3_command_list.txt 
+  390  clear
+  391  history > lab3_bash_history.txt
